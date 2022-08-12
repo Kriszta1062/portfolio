@@ -1,0 +1,88 @@
+.all{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(245, 226, 239);
+    margin: 10px;
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 30px black;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 500px;
+
+
+}
+
+.link{
+    box-shadow: 0 0 5px rgb(75,75,75) ;
+    padding: 15px;
+    border-radius: 50px;
+    background-color: rgb(184, 139, 172);
+    margin: 20px;
+    border: solid  rgb(75,75,75) 1px;
+    color: rgb(243, 205, 232);
+    font-weight: bold;
+
+}
+
+.link:hover{
+
+    box-shadow: 0 0 10px rgb(255, 255, 255);
+    padding: 15px;
+    border-radius: 50px;
+    background-color: rgb(184, 139, 172);
+    margin: 20px;
+    border: solid  rgb(255, 255, 255) 1px;
+    color: rgb(243, 205, 232);
+    font-weight: bold;
+
+
+}
+
+img{
+    max-width: 70%;
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgb(75, 75, 75);
+
+
+}
+
+.desc{
+    text-align: center;
+    padding: 20px;
+}
+
+
+a{
+    color: rgb(75, 75, 75);
+    text-decoration: none;
+
+}
+
+.title{
+    border: rgb(75, 75, 75) dashed 2px;
+    padding: 15px;
+    border-radius: 50px;
+    background-color: rgb(243, 205, 232);
+    margin: 20px;
+    
+}
+

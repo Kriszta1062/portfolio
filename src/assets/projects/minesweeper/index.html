@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link href="css/style.css" type="text/css" rel="stylesheet">
+    <title>AKNAKERESŐ</title>  
+    <script src="jquery-3.2.0.min.js"></script>
+    
+    <h1>AKNAKERESŐ
+    </h1>
+    <h3>
+      A kerünket szeretnénk minél több fával beültetni. Egyszerre csak egy fát tudunk elültetni. Minden egyes elültetett fáért egy pont jár, azonban ha olyan mezőre szeretnénk fát ültetni, ahova a Kisvakond bejáratot ásott az otthonához, a játék véget ér, tönkretettük a vakondtúrást. Ültess annyi fát, amennyit tudsz anélkül, hogy Kisvakondnak vagy a járatának baja esne. :) 
+      <br>
+      <button id="newGameKonnyu">Könnyű játék</button>
+      <button id="newGameNehez">Nehéz játék</button>
+      <br>
+     Elültetett fák száma: <div id="count"></div>
+    </h3>
+    <div id="gameArea"></div>
+    <div id = "win">
+      <img src="./img/krtek.png" alt="" width="300" height="300"></img>
+    <p> Gratulálok, Kisvakond túlélte a kalandozásod! :)</p></div>
+    <div id = "loose">
+      <img src="./img/vakond.png" alt="" width="300" height="300"></img>
+    <p> Tönkretetted a Kisvakond lakhelyét! :(  VESZTETTÉL</p></div>
+    <audio id="loosesound">
+      <source src="audio/sad.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="shovel">
+      <source src="audio/shov.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="applause">
+      <source src="audio/applause.mp3" type="audio/mpeg">
+    </audio>
+    <br>
+    <h4 id="list">Toplista<br>--------------------<br></h4>
+    <script src="script.js"></script>
+  </body>  
+</html>
+
+
+

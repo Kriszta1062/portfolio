@@ -1,0 +1,21 @@
+<div class="all">
+  <div class="container">
+    <div class="card" *ngFor="let card of collections[key]">
+      <img
+        src="{{ card.imagePath }}"
+        alt="{{ card.name }}"
+        [path]="card.imagePath"
+        [hover]="card.hover"
+        onmouseover="src = hover"
+        onmouseout="src = path"
+      />
+      <div class="title">{{ card.name }}</div>
+      <div *ngIf="card.project != none; else">
+        <a class="link" href="{{ card.project }}" target="_blank"
+          >Check out my project!
+        </a>
+      </div>
+      <div class="desc">{{ card.description }}</div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,6 @@
+<div class="container">
+  <div class="section" *ngFor="let section of sections2; index as i">
+    <div class="title" id="{{ section.id }}">{{ sections2[i].name }}</div>
+    <app-cards [key]="section.id"></app-cards>
+  </div>
+</div>
