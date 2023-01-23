@@ -94,6 +94,13 @@ export class CardsComponent implements OnInit {
         '/assets/image/resized/krtek.jpg',
         '/assets/image/resized/krtek.jpg'
       ),
+      new Card(
+        'Toak',
+        'During my preparation for work, I made a fully functional chat application in Angular, using Firestore.',
+
+        '/assets/image/toaklogo2.png',
+        '/assets/image/toakpage2.png'
+      ),
     ],
 
     contacts: [
